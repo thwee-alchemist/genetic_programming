@@ -115,9 +115,9 @@ if __name__ == '__main__':
     gene2 = Gene("AAAAAAAAAAAAAA")
     children = gene1.mate(gene2)
     for child in children:
-        child.calcCost("Hello, Worlds!")
+        child.calcCost("A Thousand monkeys typing Shakespeare...")
         print child.code, child.cost
 
-    population = Population("Hello, Worlds!", size=100, log_costs=True)
+    population = Population("A thousand monkeys typing Shakespeare...", size=100, log_costs=True)
     population.generation(display=True)
     print population.cost_log
