@@ -7,8 +7,8 @@ to python, and what you see in genetic_programming.py is the result.
 
 ## Setup
 ```bash
-git clone https://github.com/thwee-alchemist/genetic-programming
-cd genetic-programmingse 
+git clone https://github.com/thwee-alchemist/genetic_programming
+cd genetic_programming 
 python genetic_programming.py
 ```
 
